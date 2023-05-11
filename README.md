@@ -1,1 +1,1 @@
-Меня зовут Распаркин А.Н., обучаюсь на курсе Data Engineer от 1T Sprint.
+Задания по курсу Data Engineer от 1T Sprint.
