@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="scala_2-2"
+		module="scala_2-2_2.13"
+		revision="0.1.0-SNAPSHOT"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20221103185445"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.13.10" status="release" pubdate="20221008211630" resolver="public" artresolver="public" homepage="https://www.scala-lang.org/" extra-info.apiURL="https://www.scala-lang.org/api/2.13.10/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="1598" time="207" location="C:\Users\raspa\.ivy2\cache\org.scala-lang\scala-library\ivy-2.13.10.xml" searched="true" original-local-location="C:\Users\raspa\.ivy2\cache\org.scala-lang\scala-library\ivy-2.13.10.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.pom"/>
+				<caller organisation="scala_2-2" name="scala_2-2_2.13" conf="compile, runtime" rev="2.13.10" rev-constraint-default="2.13.10" rev-constraint-dynamic="2.13.10" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="successful" details="" size="5949244" time="859" location="C:\Users\raspa\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.13.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

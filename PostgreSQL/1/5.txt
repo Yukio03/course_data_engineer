@@ -1,0 +1,16 @@
+INSERT INTO employees 
+	(Name, DateBirth, WorkDate, Level, Salary, IdDept, Rights)
+VALUES 
+	('Лебедев Михаил Эминович', '01-12-1982', '06-11-2022', 'lead', 230000, 3, True),
+	('Михайлова Мирослава Георгиевна', '26-11-1993', '06-11-2022', 'middle', 12000, 3, False),
+	('Макаров Адам Егорович', '11-12-1988', '06-11-2022', 'middle', 120000, 3, True)
+
+
+INSERT INTO employees 
+	(Name, DateBirth, WorkDate, Level, Salary, IdDept, Rights)
+VALUES 
+	('Лебедев Михаил Эминович', '01-12-1982', '06-11-2022', 'lead', 230000, 3, True),
+	('Михайлова Мирослава Георгиевна', '26-11-1993', '06-11-2022', 'middle', 12000, 3, False),
+	('Макаров Адам Егорович', '11-12-1988', '06-11-2022', 'middle', 120000, 3, True)
+
+

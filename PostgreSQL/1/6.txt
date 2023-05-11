@@ -1,0 +1,14 @@
+1)
+SELECT Id, Name, Level FROM employee
+
+2)
+SELECT Id, Name, Level FROM employee LIMIT 3;
+
+3)
+SELECT Id, Name, Level FROM employee WHERE LEVEL = 'junior';     # забыл добавить столбец должностей, решил применить смекалку :)
+
+4)
+SELECT IdEmp, employee.Name, Grade FROM Rating, employee WHERE (Grade = 'D' or Grade = 'E') and (employee.Id = rating.IdEmp);
+
+5)
+SELECT Max(Salary) from employee;

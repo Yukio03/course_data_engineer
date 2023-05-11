@@ -1,0 +1,1 @@
+SELECT name, salary from employee ORDER BY salary DESC LIMIT 1;

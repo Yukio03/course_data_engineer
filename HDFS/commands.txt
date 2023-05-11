@@ -1,0 +1,30 @@
+1
+hadoop fs -copyFromLocal /home/cloudera/Desktop/voyna-i-mir-tom-1.txt
+hadoop fs -copyFromLocal /home/cloudera/Desktop/voyna-i-mir-tom-2.txt
+hadoop fs -copyFromLocal /home/cloudera/Desktop/voyna-i-mir-tom-3.txt
+hadoop fs -copyFromLocal /home/cloudera/Desktop/voyna-i-mir-tom-4.txt
+
+2
+hadoop fs -ls
+
+3
+hadoop fs -getmerge /user/cloudera/voyna-i-mir-tom-1.txt /user/cloudera/voyna-i-mir-tom-2.txt /user/cloudera/voyna-i-mir-tom-3.txt /user/cloudera/voyna-i-mir-tom-4.txt /home/cloudera/voyna-i-mir.txt
+hadoop fs -put /home/cloudera/voyna-i-mir.txt
+
+4
+hadoop fs -chmod 755 /user/cloudera/voyna-i-mir.txt
+
+5
+hadoop fs -ls
+
+6
+hadoop fs -du -h voyna-i-mir.txt
+
+7
+hadoop fs -setrep -w 2 voyna-i-mir.txt
+
+8
+hadoop fs -du -h voyna-i-mir.txt
+
+9
+hadoop fs -cat voyna-i-mir.txt | wc -l

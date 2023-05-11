@@ -1,0 +1,3 @@
+SELECT dep.name, emp.name, emp.salary from employee as emp
+JOIN departament as dep ON dep.id = emp.iddept
+WHERE (iddept, salary) in (SELECT iddept, MAX(salary) from employee GROUP BY iddept);

@@ -1,0 +1,12 @@
+CREATE TABLE departament
+(
+	Id SERIAL PRIMARY KEY,
+	Name CHARACTER VARYING(100),
+	HeadName CHARACTER VARYING(100),
+	CountEmp INTEGER
+);
+INSERT INTO departament 
+	(Name, HeadName, CountEmp)
+VALUES 
+	('Разработка', 'Левин Иван Эрикович', 3),
+	('Аналитика', 'Гаврилов Тигран Дмитриевич', 2)

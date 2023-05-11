@@ -1,0 +1,22 @@
+CREATE TABLE employess
+(
+	Id SERIAL PRIMARY KEY,
+	Name CHARACTER VARYING(100),
+	DateBirth DATE,
+	WorkDate DATE,
+	Level CHARACTER VARYING (10),
+	Salary INTEGER,
+	IdDept INTEGER,
+	Rights BOOLEAN
+);
+INSERT INTO employess 
+	(Name, DateBirth, WorkDate, Level, Salary, IdDept, Rights)
+VALUES 
+	('Гаврилов Тигран Дмитриевич', '01-12-1990', '08-08-2022', 'senior', 250000, 001, True),
+	('Смирнова Мария Марковна', '04-07-1995', '15-06-2022', 'middle', 150000, 001, True),
+	('Кожевникова Аделина Егоровна', '13-11-1999', '20-07-2022', 'junior', 70000, 002, False),
+	('Левин Иван Эрикович', '30-04-1980', '25-01-2022', 'lead', 340000, 002, True),
+	('Александров Матвей Алексеевич', '21-03-1989', '12-05-2022', 'middle', 140000, 001, False)
+
+ALTER TABLE employees
+ADD FOREIGN KEY(iddept) REFERENCES departament(id);
